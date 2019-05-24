@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/main_drawer"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawer_bg"
+        android:orientation="vertical"
+        android:paddingLeft="21dp"
+        android:paddingRight="21dp"
+        android:paddingTop="43.5dp"
+        >
+        <TextView
+            android:id="@+id/text_drawer_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="17.5dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="22dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sound"
+                android:textSize="17.5dp"
+                android:textColor="#ffffff"
+                />
+            <Switch
+                android:id="@+id/sw_sound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:track="@drawable/selector_switch"
+                android:thumb="@drawable/shape_switch_thumb"
+
+                />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/text_opensource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/opensource"
+            android:textSize="17.5dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="22dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

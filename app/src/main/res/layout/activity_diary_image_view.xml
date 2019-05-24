@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="view.diaryimageview.activity.DiaryImageViewActivity"
+    android:background="#000000"
+    >
+    <it.sephiroth.android.library.imagezoom.ImageViewTouch
+        android:id="@+id/diary_zoom_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#B2000000"
+        >
+        <ImageView
+            android:id="@+id/img_ball_color"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:background="@drawable/ball_yellow_103"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13.5dp"
+            />
+        <TextView
+            android:id="@+id/detail_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_ball_color"
+            android:text="Sep, 8, 2017"
+            android:textSize="18.25dp"
+            android:textColor="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            />
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_alignParentRight="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/icon_x_w"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

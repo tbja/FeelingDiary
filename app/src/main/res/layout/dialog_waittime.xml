@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    >
+    <LinearLayout
+        android:layout_width="303dp"
+        android:layout_height="259.75dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/wait_time_bg"
+        >
+        <TextView
+            android:id="@+id/text_today_feeling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_today"
+            android:fontFamily="sans-serif-light"
+            android:textSize="21.75dp"
+            android:textColor="#242424"
+            android:layout_marginTop="67dp"
+            />
+        <TextView
+            android:id="@+id/text_wait_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textSize="56dp"
+            android:textColor="#242424"
+            android:layout_marginTop="30.25dp"
+            android:fontFamily="sans-serif-thin"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_remaining_time"
+            android:layout_marginTop="24.75dp"
+            android:textSize="15.25dp"
+            android:textColor="#707070"
+            android:fontFamily="sans-serif-light"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "117704913394",
+    "firebase_url": "https://feelingdiary-f895a.firebaseio.com",
+    "project_id": "feelingdiary-f895a",
+    "storage_bucket": "feelingdiary-f895a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117704913394:android:eca38e80624a10b2",
+        "android_client_info": {
+          "package_name": "tbja.co.kr.feelingdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117704913394-nhqnp22shtsh4iv9o476geo1ssu2smae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tbja.co.kr.feelingdiary",
+            "certificate_hash": "e308e4f51ad5a148b444885e5ab0f8b496ba5fc3"
+          }
+        },
+        {
+          "client_id": "117704913394-rn6nfv90o9sp84dndkk4s0c0ip63v2vm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Ytx6lXonqonEzND_Fz1qxS_GhMufOX8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117704913394-rn6nfv90o9sp84dndkk4s0c0ip63v2vm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

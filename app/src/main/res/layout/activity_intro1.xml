@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tbja.co.kr.feelingdiary.view.intro.activity.Intro1Activity"
+    android:background="@drawable/main_bg_3"
+    android:id="@+id/root_view"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="193dp"
+        android:textColor="#d7d8da"
+        android:textSize="26.75dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/intro_1"
+        android:lineSpacingExtra="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/btn_move_intro2"
+        android:layout_width="wrap_content"
+        android:layout_height="46.5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="64.25dp"
+        android:background="@drawable/btn_round_rec2"
+        android:text="@string/start"
+        android:textColor="#ffffff"
+        android:textSize="16.75dp"
+        android:paddingLeft="39.5dp"
+        android:paddingRight="39.5dp"
+        android:textAllCaps="false"
+        />
+
+</RelativeLayout>
