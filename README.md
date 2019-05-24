@@ -19,10 +19,14 @@
 
 애플리케이션에 대한 설명은 아래의 영상에서 확인하실 수 있습니다.
 
-https://youtu.be/zr65YArmhtg
+[![Video Label](https://user-images.githubusercontent.com/17744946/58360363-73523280-7ec3-11e9-947c-1e317ac8c8ce.jpg)](https://www.youtube.com/embed/zr65YArmhtg?t=0s)
+(스크린샷을 클릭하시면 영상을 보실 수 있습니다.)
 
 무료버전
 https://play.google.com/store/apps/details?id=tbja.co.kr.feelingdiary.free
 
 사용기술 : JAVA, Android Studio
 오픈소스 라이브러리 : Lombok, butterknife, glide, retrofit2, gson, tedpermission, imagezoom, realmDB, box2d 등
+
+
+
